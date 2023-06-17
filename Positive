@@ -1,0 +1,17 @@
+def absvalue(x):
+
+if x>0:
+
+return x
+
+else:
+
+return -(x)
+
+lst=[12,-7,5,64,-14]
+
+abslst=list(map(absvalue,lst))
+
+print("original list is = ",lst)
+
+print("list of absoulute value is =",abslst)
